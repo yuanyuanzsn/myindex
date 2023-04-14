@@ -1,0 +1,364 @@
+/* -----------------------网站入口模块；xczx-entry */
+.xczx-entry {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.xczx-entry .container {
+    /* 子绝父相 */
+    position: relative;
+    height: 420px;
+    /* ps */
+    background-color: skyblue;
+}
+
+/* ------------------轮播图指示器 */
+.xczx-entry .container .indicator {
+    /* 子绝父相 */
+    position: absolute;
+    left: 476px;
+    bottom: 27px;
+    text-align: center;
+    width: 165px;
+    height: 12px;
+    /* ps */
+    /* background-color: skyblue; */
+}
+
+.xczx-entry .container .indicator li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba( 255, 255, 255, .4);
+    margin-right: 15px;
+}
+
+.xczx-entry .container .indicator li:last-child {
+    margin-right: 0px;
+}
+
+.xczx-entry .container .indicator .active {
+    width: 19px;
+	height: 12px;
+    border-radius: 40%;
+	background-color: #fafafa;
+}
+
+
+/* -----------------侧边栏*/
+.xczx-entry .container .category {
+    /* 子绝父相 */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.xczx-entry .container .category ul {
+    margin-top: 25px;
+}
+
+.xczx-entry .container .category li {
+    /* 子绝父相 */
+    position: relative;
+    height: 45px;
+    width: 190px;
+    margin-left: 20px;
+    /* margin-top: 25px; */
+}
+
+.xczx-entry .container .category li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.xczx-entry .container .category li a:hover {
+    color: #00b4ff;
+}
+
+.xczx-entry .container .category li a span {
+    /* 子绝父相 */
+    position: absolute;
+    right: 40px;
+    top: 2px;
+}
+
+/* ---------------我的课程表 */
+.xczx-entry .container .course {
+    /* 子绝父相 */
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.xczx-entry .container .course h4 {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #9bceea;
+    margin-bottom: 6px;
+}
+
+.xczx-entry .container .course .info {
+    padding: 0 20px;
+}
+
+.xczx-entry .container .course .info li {
+    /* height: 62px; */
+    line-height: 62px;
+    padding: 15px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.xczx-entry .container .course .info li .info1 {
+    display: block;
+    font-size: 14px;
+	font-weight: bold;
+    color: #4e4e4e;
+    line-height: 1;
+    padding-bottom: 5px;
+}
+
+.xczx-entry .container .course .info li .info2 {
+    display: block;
+    font-size: 12px;
+	font-weight: bold;
+	color: #a5a5a5;
+    line-height: 1;
+}
+
+.xczx-entry .container .course .all {
+    height: 41px;
+    /* padding: 0 20px; */
+    margin-top: 2px;
+    text-align: center;
+    line-height: 41px;
+    text-align: center;
+    border: solid 2px #00a4ff;
+}
+
+.xczx-entry .container .course .all a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00a4ff;
+}
+
+/* -------------------精品推荐模块 */
+.goods {
+    /* 子绝父相 */
+    position: relative;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 4px 3px 2px rgba(0, 0, 0, .3);
+    margin-top: 7px;
+}
+
+.goods .good-items li {
+    float: left;
+    line-height: 60px;
+}
+
+.goods .good-items li:first-child a {
+    font-size: 16px;
+    color: #00a4ff;
+    font-weight: bold;
+}
+
+.goods .good-items li a {
+    font-size: 16px;
+    color: #050505;
+    padding: 0 30px;
+}
+
+.goods .mod {
+    /* 子绝父相 */
+    position: absolute;
+    right: 26px;
+    top: 20px;
+    font-size: 14px;
+    color: #00a4ff;
+    padding-left: 26px;
+}
+
+/* -------------------------推荐box模块 */
+.box {
+    height: 595px;
+    margin-top: 37px;
+    /* ps */
+    /* background-color: skyblue; */
+}
+
+.box .box-hd {
+    /* 子绝父相 */
+    position: relative;
+    height: 38px;
+    background-color: #f3f5f7;
+    line-height: 38px;
+}
+
+.box .box-hd h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #494949;
+}
+
+.box .box-hd a {
+    /* 子绝父相 */
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.box .box-bd {
+    height: 560px;
+    /* ps */
+    /* background-color: green; */
+}
+
+.box .box-bd ul li {
+    /* 子绝父相 */
+    position: relative;
+    float: left;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px 2px rgba( 0, 0, 0, .4);
+}
+
+.box .box-bd ul li::after {
+    content: '';
+    /* display: block; */
+    /* 子绝父相 */
+    position: absolute;
+    top: 4px;
+    right: -3px;
+    width: 40px;
+    height: 20px;
+    border: solid 1px #ff592d;
+    background: url(../images/new.png);
+}
+
+.box .box-bd ul li:first-child {
+    margin-left: 0;
+}
+
+.box .box-bd ul li:nth-child(6) {
+    margin-left: 0;
+}
+
+.box .box-bd ul li:nth-child(n+6) {
+    margin-bottom: 0px;
+}
+
+.box .box-bd ul li h4 {
+    font-size: 14px;
+    color: #050505;
+    margin: 25px 25px 0;
+    font-weight: 400;
+}
+
+.box .box-bd ul li .explain {
+    display: block;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+
+.box .box-bd ul li .gaoji {
+    font-size: 12px;
+    color: #ff7c2d;
+}
+
+.box .box-bd ul li .studying {
+    font-size: 12px;
+    color: #777777;
+}
+
+/* ---------------------编程入门模块：xczx-rumen */
+.xczx-rumen {
+    height: 435px;
+    margin-top: 33px;
+    /* ps */
+    /* background-color: pink; */
+}
+
+.xczx-rumen .rumen-hd {
+    height: 45px;
+    line-height: 45px;
+    /* ps */
+    /* background-color: skyblue; */
+}
+
+.xczx-rumen .rumen-hd h2 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+.xczx-rumen .rumen-hd .topnav {
+    float: left;
+    margin-left: 344px;
+}
+
+.xczx-rumen .rumen-hd .topnav li {
+    float: left;
+    padding-right: 65px;
+}
+
+.xczx-rumen .rumen-hd .topnav li .rank {
+    font-size: 16px;
+    color: #868686;
+}
+
+.xczx-rumen .rumen-hd .topnav li .rank:hover {
+    color: #00a4ff;
+}
+
+.xczx-rumen .rumen-hd .chakanquanbu {
+    float: right;
+}
+
+.xczx-rumen .rumen-hd .chakan {
+    margin-left:300px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.xczx-rumen .rumen-bd {
+    height: 392px;
+    /* ps */
+    /* background-color: green; */
+}
+
+.xczx-rumen .rumen-bd .left {
+    height: 392px;
+    width: 228px;
+    float: left;
+    background: url(../images/PHP.png);
+    /* ps */
+    /* background-color: purple; */
+}
+
+.xczx-rumen .rumen-bd .python {
+    float: left;
+    margin-left: 10px;
+    width: 957px;
+	height: 100px;
+    background: url(../images/pic.png);
+    /* ps */
+    /* background-color: pink; */
+}
